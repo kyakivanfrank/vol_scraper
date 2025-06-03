@@ -7,7 +7,7 @@ from datetime import datetime, timezone  # <--- Add timezone here
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 
-from utils.index import (
+from utils import (
     get_latest_session_folder,
     is_user_logged_in,
     parse_init_file,
